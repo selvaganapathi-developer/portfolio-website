@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Porfolio Website</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--font-awsome cdn-->
+    <script src="https://kit.fontawesome.com/39a010f774.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+     <a href="#"  class="logo">Portfolio</a>
+     <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+   <a href="#home" class="active">Home</a>
+   <a href="#about">About</a>
+   <a href="#services">Services</a>
+   <a href="#portfolio">Portfolio</a>
+   <a href="#contact">Contact</a>
+</nav>
+</header>
+<!--home section design-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello Everyone</h3>
+        <h1>Myself G.Selva Ganapathi</h1>
+        <h3>and i am a <span class="multiple-text">Full Stack Web Developer | Wordpress & ERP Solutions Builder | Aspiring Digital Marketing Learner | Freelancer</span></h3>
+        <p>Passionate software developer with one year of hands-on experience in web development and design through in my company and freelance projects. Proficient in researching, designing, implementing, and managing software programs. Skilled in testing and evaluating new programs to ensure optimal functionality. Responsible for the design and construction of websites, ensuring both aesthetic appeal and efficient functionality.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/Selvaganapathi23g " target="_blank"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://x.com/gsg_23x" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/selvaganapathi_insta23/?hl=en" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.linkedin.com/in/g-selvaganapathi/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            <a href="https://github.com/selvaganapathi-developer" target="_blank"><i class='bx bxl-github'></i></a>
+
+        </div>
+        <a href="./assets/selva_resume.pdf" download class="btn btn2">Download cv</a>
+    </div>
+    <div class="home-img">
+        <img src="./images/illustrator-img-4.avif" alt="">
+    </div>
+</section>
+<!--about section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/profile-pic.png" alt="my profile picture">
+            </div> 
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p style="font-size: 15px;text-align: justify;margin-right: 20px;">I am a Full Stack Web Developer with one year of hands-on experience in both front-end and back-end development. My expertise lies in PHP, CodeIgniter, and WordPress, where I have successfully built and managed end-to-end Web Development and  ERP projects, demonstrating my ability to excel in real-world scenarios. Currently, I am broadening my skill set by delving into low-code platforms.I am actively seeking freelance opportunities, bringing a versatile and dynamic approach to every project I undertake. I am committed to delivering the best work possible in every task. My dedication to continuous learning extends beyond development; I am passionate about digital marketing and am eager to acquire new marketing skills. Additionally, I am enthusiastic about integrating AI tools into my work to enhance productivity and innovation.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>To create an responsible website with end to end full stack process </li>
+                            <li><span>UI/UX</span> <br> Designing web/app interface</li>
+                            <li><span>Programming skills</span><br>
+                                (Html5 | CSS3 | Javascript ES6 | Bootstrap | Sass | Jquery | Php | Codeigniter3 | Mysql | React | Wordpress | Basic of UI automation testing)
+            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2023</span> Worked as (Junior Development Programmer ) at Enova Software and Hardware solutions in Coimbatore</li>
+                            <li><span>2021-2022</span> Worked as (Call Center Executive)CCE at Kolors Health Care Pvt Ltd in Hyderabad</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span>B.VOC (Software Development) at ALAGAPPA UNIVERSITY , KARAIKUDI</li>
+                            <li><span>2018</span>HSC (XII-STD) at ST.MICHAEL.MATRIC.HR.SEC.SCHOOL , KARAIKUDI</li>
+                            <li><span>2016</span>SSLC (X-STD) at  ST.MICHAEL.MATRIC.HR.SEC.SCHOOL , KARAIKUDI</li>
+                        </ul>
+
+                    </div>
+                    
+
+            </div>
+        </div>
+    </div>
+</div>
+  <!--services-->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title" style="margin-left: 40%;">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>We build an web development and it can range from developing a simple single static page of plain text to complex web 
+                    applications, electronic businesses, and social network services.</p>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-palette"></i>
+                <h2>Web Design</h2>
+                <p>My designing is responsible for creating the design and layout of a website or web pages. It and can mean working
+                    on a brand new website or updating an already existing site</p>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                <h2>Website Content Writing and Image Processing</h2>
+                <p>I specialize in creating engaging website content and optimizing images for enhanced user experience and visual appeal.</p>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+<!--porfolio section-->
+<section class="portfolio" id="portfolio">
+    <h2 class="sub-title" style="margin-left: 37%;">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img  src="./images/landing page.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Landing Page</h4>
+                <p>Build an standalone web page that a person "lands" on after clicking through from a email, ad, or other digital location.</p>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/portfolio.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Portfolio Website</h4>
+                <p>An online portfolio is an online representation of work which I have created, as well as my skills and experience.</p>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/illustrator-img-3.avif" alt="">
+            <div class="portfolio-layer">
+                <h4>Building ERP Process</h4>
+                <p>Building ERP Process with  database connection is a configuration file where you can specify a database details.</p>
+            </div>
+        </div>
+    
+    </div>
+    <div></div>
+    <br><br>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img  src="./images/wordpress-website-development.webp" alt="wordpress development">
+            <div class="portfolio-layer">
+                <h4>Wordpress Development</h4>
+                <p>I have extensive experience in WordPress development, which includes building and customizing websites to meet diverse client needs. My skills in WordPress development encompass.</p>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/businessimage.jfif" alt="Business website development">
+            <div class="portfolio-layer">
+                <h4>Business Website</h4>
+                <p>With extensive WordPress development expertise, I specialize in creating professional, high-performance business websites tailored to diverse client needs. I excel in both low-code platforms and custom programming technologies</p>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/contentimage.jfif" alt="Content writing">
+            <div class="portfolio-layer">
+                <h4>Website Content Writing and Image Processing</h4>
+                <p>creating high-performance business websites tailored to diverse needs,content writing, image processing.</p>
+            </div>
+        </div>
+    
+    </div>
+   
+</section>
+
+<section>
+    <h2 class="sub-title" style="margin-left: 37%;">Video <span>Testimonials</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <h4>Blogging Website</h4>
+            <video width="320" height="240" controls>
+                <source src="./assets/bloggingdemo.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div class="portfolio-box">
+            <h4>Business Website</h4>
+            <video width="320" height="240" controls>
+                <source src="./assets/businesswebsitedemo.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div class="portfolio-box">
+            <h4>Wordpress Website</h4>
+            <video width="320" height="240" controls>
+                <source src="./assets/wordpressdemo.mp4" type="video/mp4">
+              </video>
+        </div>
+        
+</section>
+<!--contact section-->
+<section class="contact" id="contact">
+    <h2 class="sub-title" style="margin-left: 37%;">Contact <span>Me!</span></h2>
+<!--form tags-->
+    <form  action="#" name="myform" method="POST">
+ <div class="input-box">
+    <input type="text" placeholder="Enter Your Name" name="uname">
+    <input type="email" placeholder="Yourmail@gmail.com" name="email">
+ </div>
+ <div class="input-box">
+    <input type="number" placeholder="Enter Your Mobile Number" name="number">
+    <input type="text" placeholder="Email Subject" name="subject">
+ </div>
+ <textarea name="" id="" cols="30" rows="10" placeholder="your message" ></textarea>
+ <!-- <input type="submit"  value="Send Message" class="btn"> -->
+ <P id="errorbox">Fill Up Your Details</P>
+ <button type="submit" value="Send Message" class="btn">Send Message</button>
+    </form>
+</section>
+<section>
+    <h3>Geolocation: (Note: Please ensure your internet connection is turned on)</h3>
+    <br><br>
+    <div style="display: flex; align-items: center;">
+        <div style="width: 600px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.383683711068!2d78.78968604153589!3d10.067614181102734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b005d3a971ead35%3A0xfd69ecd90513f4a1!2sKaraikudi%20Railway%20Station!5e0!3m2!1sen!2sin!4v1719830125717!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div style="margin-left: 20px;">
+            <p style="font-size: 18px; line-height: 1.6;">
+                <strong class="sub-title">Address:</strong><br><br>
+                <strong>1/61, Elango street,</strong><br>
+                <strong>Lakshmi nagar,</strong><br>
+                <strong>Near Railway Junction,</strong><br>
+                <strong>Karaikudi-630003</strong><br><br>
+                <h5 class="sub-title"><i class="bx bxs-phone"></i>
+                    +91 9865702514</h5><br>
+                    <a href="https://wa.me/9865702514" target="_blank" style="color: white; font-size: 20px; text-decoration: none;">
+                        <i class='fab fa-whatsapp' style="color: green; font-size: 40px;"></i> Contact me for more details on WhatsApp
+                    </a>
+                    
+                   
+
+            </p>
+        </div>
+    </div>
+    
+        
+</section>
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>copyright &copy; 2023 by selva | Personal PortFolio Website </p>
+        
+    </div>
+    <div class="footer-icon-top">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./js/index.js"></script>
+<!--typed js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+</html>
